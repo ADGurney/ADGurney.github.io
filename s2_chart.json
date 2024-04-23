@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ADGurney/ADGurney.github.io/main/Testdata.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "obsmonth", "type": "nominal", "axis": {"labelAngle": 0}},
+      "y": {"field": "core_inf", "type": "quantitative"}
+    }
+  }
